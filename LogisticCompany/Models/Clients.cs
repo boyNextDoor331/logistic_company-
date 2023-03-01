@@ -17,7 +17,7 @@ namespace LogisticCompany.Models
         [DataMember]
         [Column("address")]
         public string Address { get; set; }
-        public ICollection<Waybill> Waybill { get; set; }
+        public virtual ICollection<Waybill> Waybill { get; set; } = new List<Waybill>();
 
     }
 }
