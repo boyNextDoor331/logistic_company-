@@ -48,13 +48,7 @@ namespace LogisticCompany.Controllers
         // GET: Cars/Create
         public IActionResult Create()
         {
-            //var car = new Cars()
-            //{
-            //    Model = model,
-            //    Mileage = mileage
-            //};
-            //_context.Cars.Add(car);
-            //_context.SaveChanges();
+
             return View();
         }
 
